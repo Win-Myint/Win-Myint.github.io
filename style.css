@@ -1,0 +1,216 @@
+/* bootstrap default navbar has 70px height */
+/* add 70px padding-top to move main contents down! */
+body { padding-top: 70px; }
+
+span { font-weight: bold; }
+
+h1 {  
+  background: -webkit-linear-gradient(#3b5998, #2c3e50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px; 
+  text-transform: uppercase;
+}
+
+.jumbotron a {
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+
+.list-header {
+  background: -webkit-linear-gradient(#3b5998, maroon);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover  {
+  color: #3b5998;
+}
+
+.list-group-item {
+  background-color: #eee;
+}
+
+.navbar-inverse {
+  background: #2c3e50;
+  color: white;
+}
+
+/* specifity >>> https://developer.mozilla.org/en/docs/Web/CSS/Specificity */
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+  color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+} 
+
+.btn-primary {
+  margin-left: 24px;
+}
+
+.btn-default {
+	opacity: 0.7;
+}
+
+.btn-default:hover {
+	opacity: 1;
+	box-shadow: 0 0 20px rgba(0,0,0,1.5);
+}
+
+/*push spinning icon inside thumbnails*/
+.thumbnail .caption {
+    padding-left: 42px;
+}
+
+.container {
+    padding-left: 0px; 
+}
+
+/* Skills thumbnail */
+.thumbnail {
+  background-color: #eee; 
+  border: 1px solid #ddd 
+}
+
+/* Contact form */
+.well {
+    min-height: 20px;
+    padding: 15px;
+    margin-bottom: 0px; 
+    background-color: #eee; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+/* Social media icons and all icons in footer */
+
+#socialIcon {
+	margin-top: 20px;
+}
+
+/*specify browsers which support transition and duration of the effect*/
+footer div i {
+  -webkit-transition: all 0.8s ease;
+     -moz-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+}
+ 
+/*trigger transition and rotate my social media icons when user hover*/
+footer div i:hover {  
+  -webkit-transform: rotate(360deg); 
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+footer section div {
+	text-align: center;
+}
+
+/* Scroll to top */
+#scrollTop {
+	position: fixed;
+	right: 25px;	
+	bottom: 25px;
+	background: -webkit-linear-gradient(#3b5998, #2c3e50);
+	color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	opacity: 0.7;
+	display: none;
+	z-index: 1;
+}
+
+#scrollTop:hover {
+	opacity: 1;
+	box-shadow: 0 0 20px rgba(0,0,0,1.5);
+}
+
+/* Gradient transparent - color - transparent */
+hr {
+    border: 0;
+    height: 1.6px;
+    background: #3b5998; 
+    background-image: linear-gradient(to right, white, #3b5998, white);
+}
+
+#copyright {
+	margin-bottom: 0px;
+    border: 0px;
+    height: 1px;
+    background: #3b5998; 
+    background-image: linear-gradient(to right, white, #3b5998, white);
+}
+
+#contact {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/*add transition function to header image*/
+header img {
+  width: 180px;
+  height: auto;
+  border-radius: 180px;
+  border:4.5px solid #2c3e50;
+}
+
+/*specify browsers which support transition and duration of the effect*/
+.icon-image {
+  -webkit-transition: all 0.8s ease;
+     -moz-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+}
+ 
+/*trigger transition and rotate camera icon when user hover*/
+.icon-image:hover {  
+  -webkit-transform: rotate(360deg); 
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.thumbnail  {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+  	   -moz-transition: all 1s ease; /* Firefox */
+  	     -o-transition: all 1s ease; /* IE 9 */
+  	    -ms-transition: all 1s ease; /* Opera */
+  	        transition: all 1s ease;
+}
+
+.thumbnail:hover {
+  box-shadow:inset 0 0 0 1px #3b5998;
+              background-color: #fff;
+       -webkit-transform:scale(1.03); /* Safari and Chrome */
+          -moz-transform:scale(1.03); /* Firefox */
+           -ms-transform:scale(1.03); /* IE 9 */
+            -o-transform:scale(1.03); /* Opera */
+               transform:scale(1.03);
+}
+
+.list-group-item {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+       -moz-transition: all 1s ease; /* Firefox */
+         -o-transition: all 1s ease; /* IE 9 */
+        -ms-transition: all 1s ease; /* Opera */
+            transition: all 1s ease;
+}
+
+.list-group-item:hover {
+  box-shadow:inset 0 0 0 1px #3b5998;
+              background-color: #fff;
+       -webkit-transform:scale(1.03); /* Safari and Chrome */
+          -moz-transform:scale(1.03); /* Firefox */
+           -ms-transform:scale(1.03); /* IE 9 */
+            -o-transform:scale(1.03); /* Opera */
+               transform:scale(1.03);
+}

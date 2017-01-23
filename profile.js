@@ -1,5 +1,3 @@
-console.log("connected");
-
 // Smooth scroll function
 var $root = $('html, body');
 $('a').click(function() {

@@ -73,20 +73,7 @@ a:hover  {
   border: 1px solid #ddd 
 }
 
-/* Contact form */
-.well {
-    min-height: 20px;
-    padding: 15px;
-    margin-bottom: 0px; 
-    background-color: #eee; 
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-}
-
 /* Social media icons and all icons in footer */
-
 #socialIcon {
 	margin-top: 20px;
 }
